@@ -1,0 +1,67 @@
+:root {
+    --lightblue: #add8e6;
+    --darkblue: #191970;
+    --ghostwhite: #f8f8ff;
+    --stealblue: #4682b4;
+    --royalblue: #4169e1;
+}
+
+body {
+  line-height: 1.5;
+  background-color: var(--ghostwhite);
+  color: var(--darkblue);
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+    width: 96%;
+    margin: 0 auto;
+    padding: 2.5rem;
+    background-color: var(--lightblue);
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type: none;
+}
+
+nav a {
+    color: var(--darkblue);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+aside ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: column;
+    list-style-type: none;
+    position: relative;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+  
