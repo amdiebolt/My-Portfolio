@@ -13,10 +13,16 @@ body {
   font-family: sans-serif;
   margin: 0px;
   padding: 0px;
+  width: 95%;
+}
+
+#page-wrap {
+  width: 800px;
+  margin: 0 auto;
 }
 
 header {
-    width: 96%;
+    width: 100%;
     margin: 0 auto;
     padding: 2.5rem;
     background-color: var(--lightblue);
@@ -43,25 +49,72 @@ nav a {
     text-decoration: none;
   }
 
-aside ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    flex-direction: column;
-    list-style-type: none;
-    position: relative;
-
+#about-me {
+  display:flex;
+  flex-wrap: wrap;
+  margin-left: 2%;
 }
 
-.row {
+#my-work {
+  display:flex;
+  flex-wrap: nowrap;
+  margin-left: 90%;
+}
+
+aside {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.flex-container {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 2%;
     flex-direction: row;
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
+    justify-content: space-around;
   }
 
-  .justify-center {
-    justify-content: center;
+.card {
+  flex: 1 0 0;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.card header {
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+}
+
+.card img {
+  width: 100%;
+  min-width: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
+  .card-column:first-child {
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    width: 100%;
+  }
+
+  .card {
+    flex: 0 0 33.333%;
+    max-width: 25%;
+  }
+}
+
+
   
