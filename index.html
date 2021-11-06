@@ -5,67 +5,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Diebolt Portfolio</title>
+  <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
   <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
-        <header>
-            <h1 class="name">Alexander Diebolt</h1>
-            <img src="Alex Edit 019 crop 2.jpg" alt="A picture of me">
-            <nav>
-                <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#my-work">My Work</a></li>
-                    <li><a href="#contact-info">Contact Me</a></li>
-                </ul>
-            </nav>
-            <div class="pic">
-        </header>
-        <h1 id="about-me">About Me</h1>
+    <header class = 'jumbotron d-flex justify-content-between bg-blue'>
+        
+        <h1 class = 'align-items-start'>Alexander Diebolt</h1>
+        <div class=" align-items-center card " style="width: 10rem;">
+            <img src="Alex Edit 019 crop 2.jpg" class="card-img-top" alt="A picture of me">
+        </div>
+        
+        <h5 class = "justify-content-between">
+            <ul class = 'list-unstyled flex-direction: row'>
+                <li class = "m-2"><a href="#about-me">About Me</a></li>
+                <li class = "m-2"><a href="#my-work">My Work</a></li>
+                <li class = "m-2"><a href="#contact-info">Contact Me</a></li>
+                <li class = "m-2"><a href="https://github.com/amdiebolt">Github</a></li>
+                <li class = "m-2"><a href="https://www.linkedin.com/in/alexander-diebolt-661122225/">Linkedin</a></li>
+                <li class = "m-2"><a href="\Portfolio\Resume.pdf" download>Download Resume</a></li>
+            </ul>
+        </h5>
+    </header>
+        <h1 class = "m-4">About Me</h1>
         <br>
-        <section class="about-me">
-            <pre>My name is Alexander Diebolt. I am a scientist who is training to become a software engineer. 
-                In my down time I enjoy coding, playing ukulele, and hiking. Eventually I hope to have a robust portoflio!</pre>
+        <section class="d-flex justify-content-center"></section>
+        <div class="card w-75 bg-transparent border-0 justify-content-center">
+            <div class="card-body">
+              <p class="card-text">Front-end web developer from a science background able to utilize logical methodologies to improve design and functionality of websites. 
+                Completed  a full-stack web development bootcamp through the University of California, San Diego.
+                The bootcamp emphasizes knowledge of Javascript, React.js, and back-end technologies, ultimately conferring a certificate in full stack web development. 
+                Able to approach coding problems with a unique mindset allowing successful collaboration and completion of goals. 
+                Passionate about approaching programming challenges from a scientific mindset to create meaningful web applications. 
+                Recently set up a trip planning app that utilizes various server-side APIs to deliver a dynamic user experience. 
+                My background and current experience uniquely sets me up for playing a crucial role in a quality driven, highly flexible team.</p>
+            </div>
+          </div>
         </section>
         <br>
         <br>
-        <h1 id="my-work">My Work</h1>
-        <main class="flex-container">
-            <container class="first-project">
-                <!--<div class="card">-->
-                    <h3 class="label">Horiseon Refactoring</h3>
-                    <a href="https://amdiebolt.github.io/Horiseon_Refactory/">
-                    <img src="133906369-d9e9dd47-c9de-42ac-b4cd-9c9905cac605.PNG"></a>
-                </div>
-            </container>
+        <h1 class ="m-4">My Work</h1>
+        <main class="d-flex ">
                 <!--Placeholders for future projects-->
-                <div class="card">
-                    <h3 class="label">Placeholder</h3>
-                    <a href="placeholder">
-                    <img src="abin-james-x75kEKa6a0o-unsplash.jpg" alt="Screenshot of project"></a>
-                </div>
-                <div class="card">
-                    <h3 class="label">Placeholder</h3>
-                    <a href="placeholder">
-                    <img src="arturo-rodriguez-5S4ciibnbZo-unsplash.jpg" alt="Screenshot of project"></a>
-                </div>
-                <div class="card">
-                    <h3 class="label">Placeholder</h3>
-                    <a href="placeholder">
-                    <img src="stories-EWEOfnhQkqw-unsplash.jpg" alt="Screenshot of project"></a>
-                </div>
-                <div class="card">
-                    <h3 class="label">Placeholder</h3>
-                    <a href="placeholder">
-                    <img src="zoe-3wpfLpdBntk-unsplash.jpg" alt="Screenshot of project"></a>
+            <div class = "align-items-center flex-direction: row">
+                <div class="card m-4 w-75">
+                    <h5>Trip Planner</h5>
+                    <a href="https://amdiebolt.github.io/trip-planner/"><img src="\Portfolio\project1.png" class="card-img-top" alt="Picture of Project1"></a> 
+                    <div class="card-body">
+                      <p class="card-text">Plan a last minute trip with this handy app that allows you to search any city in the US for weather and local events!</p>
+                    </div>
+                  </div>
+                
+                <div class="card m-4 w-25">
+                    <h5>Day Planner</h5>
+                    <a href="https://amdiebolt.github.io/dayPlanner/"><img src="\Portfolio\dayPlanner.PNG" class="card-img-top" alt="Picture of Project1"></a> 
+                    <div class="card-body">
+                      <p class="card-text">Use this app to organize your day by hour.</p>
+                    </div>
+                  </div>
+                
+                <div class="card m-4 w-25">
+                    <h5>Code Quiz</h5>
+                    <a href="https://amdiebolt.github.io/codeQuiz/"><img src="\Portfolio\quiz.PNG" class="card-img-top" alt="Picture of Project1"></a> 
+                    <div class="card-body">
+                      <p class="card-text">Think you know your coding lingo? Test yourself with this code quiz app.</p>
+                    </div>
+                  </div>
+                
+                <div class="card m-4 w-25">
+                    <a href="https://amdiebolt.github.io/passwordGenerator/"><img src="\Portfolio\passwordgenerator.PNG" class="card-img-top" alt="Picture of Project1"></a> 
+                    <div class="card-body">
+                      <p class="card-text">Generate a password using parameters that you can set yourself!</p>
+                    </div>
+                  </div>
                 </div>
         </main>
         <br>
         <br>
-        <h1 id="contact-info">Contact Info</h1>
+        <h1 class="m-4">Contact Info</h1>
         <br> 
             <ul class="contact">
-                <li><h2>Phone: 555-555-5555</h2></li>
+                <li><h2>Phone: 858-722-7822</h2></li>
                 <li><h2>Email: alexander.diebolt@gmail.com</h2></li>
             </ul>
 </body>
