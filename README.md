@@ -10,7 +10,7 @@ During this project I learned how to put together everything I've learned so far
 
 ## Screenshot
 
-![portfolio capture](https://user-images.githubusercontent.com/89421292/134775163-4cef5754-6b37-4d77-ac4d-d5f6321174b9.PNG)
+![newportfolio1](https://user-images.githubusercontent.com/89421292/140623010-c3bde8fe-5cbf-4bed-8be9-b3e2e2bf6c48.PNG)
 
 ## Link
 
