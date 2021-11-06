@@ -16,4 +16,9 @@ During this project I learned how to put together everything I've learned so far
 
 https://amdiebolt.github.io/My-Portfolio/
 
+##License 
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
