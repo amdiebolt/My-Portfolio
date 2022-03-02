@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class = 'jumbotron d-flex justify-content-between bg-blue'>
+    <header class = 'jumbotron d-flex justify-content-between'>
         
         <h1 class = 'align-items-start'>Alexander Diebolt</h1>
         <div class=" align-items-center card " style="width: 10rem;">
@@ -27,11 +27,11 @@
                 <li class = "m-2"><a href="#contact-info">Contact Me</a></li>
                 <li class = "m-2"><a href="https://github.com/amdiebolt">Github</a></li>
                 <li class = "m-2"><a href="https://www.linkedin.com/in/alexander-diebolt-661122225/">Linkedin</a></li>
-                <li class = "m-2"><a href="\Portfolio\Resume.pdf" download>Download Resume</a></li>
+                <li class = "m-2"><a href="Resume.pdf" download>Download Resume</a></li>
             </ul>
         </h5>
     </header>
-        <h1 class = "m-4">About Me</h1>
+        <h1 class = "m-4" id="about-me">About Me</h1>
         <br>
         <section class="d-flex justify-content-center"></section>
         <div class="card w-75 bg-transparent border-0 justify-content-center">
@@ -48,12 +48,12 @@
         </section>
         <br>
         <br>
-        <h1 class ="m-4">My Work</h1>
+        <h1 class ="m-4" id="my-work">My Work</h1>
         <main class="d-flex ">
                 <!--Placeholders for future projects-->
             <div class = "align-items-center flex-direction: row">
                 <div class="card m-4 w-75">
-                    <h5>Trip Planner</h5>
+                    <h5><a href="https://github.com/amdiebolt/trip-planner">Trip Planner</a></li></h5>
                     <a href="https://amdiebolt.github.io/trip-planner/"><img src="project1.png" class="card-img-top" alt="Picture of Project1"></a> 
                     <div class="card-body">
                       <p class="card-text">Plan a last minute trip with this handy app that allows you to search any city in the US for weather and local events!</p>
@@ -61,22 +61,23 @@
                   </div>
                 
                 <div class="card m-4 w-25">
-                    <h5>Day Planner</h5>
+                  <h5><a href="https://github.com/amdiebolt/SubTrack">SubTrack</a></li></h5>
+                  <a href="https://subtacker.herokuapp.com/"><img src="subtrack.PNG" class="card-img-top" alt="Picture of Project1"></a> 
+                  <div class="card-body">
+                    <p class="card-text">Track your all of your streaming platforms in one convenient place!</p>
+                  </div>
+                </div>
+
+                <div class="card m-4 w-25">
+                  <h5><a href="https://github.com/amdiebolt/dayPlanner">Day Planner</a></li></h5>
                     <a href="https://amdiebolt.github.io/dayPlanner/"><img src="dayPlanner.PNG" class="card-img-top" alt="Picture of Project1"></a> 
                     <div class="card-body">
                       <p class="card-text">Use this app to organize your day by hour.</p>
                     </div>
                   </div>
-                
+                               
                 <div class="card m-4 w-25">
-                    <h5>Code Quiz</h5>
-                    <a href="https://amdiebolt.github.io/codeQuiz/"><img src="quiz.PNG" class="card-img-top" alt="Picture of Project1"></a> 
-                    <div class="card-body">
-                      <p class="card-text">Think you know your coding lingo? Test yourself with this code quiz app.</p>
-                    </div>
-                  </div>
-                
-                <div class="card m-4 w-25">
+                  <h5><a href="https://github.com/amdiebolt/passwordGenerator">Password Generator</a></li></h5>
                     <a href="https://amdiebolt.github.io/passwordGenerator/"><img src="passwordgenerator.PNG" class="card-img-top" alt="Picture of Project1"></a> 
                     <div class="card-body">
                       <p class="card-text">Generate a password using parameters that you can set yourself!</p>
@@ -86,7 +87,7 @@
         </main>
         <br>
         <br>
-        <h1 class="m-4">Contact Info</h1>
+        <h1 class="m-4" id="contact-info">Contact Info</h1>
         <br> 
             <ul class="contact">
                 <li><h2>Phone: 858-722-7822</h2></li>
